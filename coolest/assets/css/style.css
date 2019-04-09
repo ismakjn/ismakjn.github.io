@@ -5,7 +5,7 @@
 
 body {
   background: rgba(0, 0, 0, 0.0225);
-  font-family: Roboto, "Open Sans", "Segeo UI", Helvetica, Arial, sans-serif;
+  font-family: "Segeo UI", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.55;
   color: #333;
@@ -284,6 +284,29 @@ q:after {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+@media screen and (max-width: 786px) {
+  .slide {
+    text-align: center;
+  }
+  .slide .display-2 {
+    font-weight: 400;
+    font-size: 46px !important;
+  }
+  .slide .subtitle {
+    font-weight: 400;
+    font-size: 20px !important;
+  }
+  .display-4 {
+    font-weight: 400;
+    font-size: 36px !important;
+    margin-bottom: 25px;
+  }
+  .lead {
+    font-size: 20px !important;
+    text-align: left;
+  }
 }
 
 .presentation {
