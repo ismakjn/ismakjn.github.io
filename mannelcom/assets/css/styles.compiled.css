@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", Roboto, sans-serif;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.site_header {
+  border-bottom: 1px solid #ddd;
+}
+.site_header .navbar-nav .nav-link {
+  border-radius: 5px;
+  background: transparent;
+  margin: 7px 5px;
+  padding: 12px 20px;
+}
+.site_header .navbar-nav .nav-link:hover {
+  background: #bf213e;
+  color: #fff;
+}
+.site_header .navbar-nav .nav-link.active {
+  background: #bf213e;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.services-section {
+  background-color: #FDFDFD;
+  min-height: 100vh;
+}
+.services-section-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.services-section-item:nth-child(odd) .services-section-content {
+  padding-left: 0;
+}
+.services-section-title {
+  color: #a61f38;
+  border-bottom: 2px solid rgba(166, 31, 56, 0.25);
+  padding-bottom: 10px;
+}
+
+.realisations-section {
+  background-color: #FADFE5;
+  min-height: 100vh;
+}
+
+.about-section {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.contact-section {
+  background-color: #F3F3F3;
+  min-height: 100vh;
+}
